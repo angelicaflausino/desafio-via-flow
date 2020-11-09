@@ -2,7 +2,6 @@
 Repositório de testes da via-flow
 
 
-
 ## Prova Senior
 
 Questão 1:
@@ -12,19 +11,21 @@ Questão 1:
 **Resposta:** 
 	*Reflection* é utilizado mais comumente para acessar as propriedades e atributos de um determinado objeto. É muito útil quando é necessário instanciar uma classe em tempo de execução (*runtime*) do programa. Também é possível via *reflection* obter as informações de *assembly* da classe, o que pode ser muito útil quando estamos trabalhando com injeção de depedência. 
 	Para utilizar *Reflection* é necessário referenciar a biblioteca System.
-	[Exemplo utilizando reflection]()
+	
+[Exemplo da Questão 2](https://github.com/angelicaflausino/desafio-via-flow/blob/main/src/DesafioApp/DesafioApp/Questao2.cs)
 
 **Questão 3**
 **Resposta:** 
 	Os tipos de classes genéricos, são bastante utilizados para definir padrões de classes sem ser necessário especificação do tipo da classe previamente. O caso mais comum da utilização da biblioteca *generics* é na implementação de coleções como List<T> e Dictionary<Tkey, TValue>. 
 	O maior benefício de se trabalhar com *generics* é a reusabilidade do código. Você escreve menos código e os tipos genéricos já estão pronto para uso.
-[Exemplo utilizando generics]()
+
+[Exemplo da Questão 3](https://github.com/angelicaflausino/desafio-via-flow/blob/main/src/DesafioApp/DesafioApp/Questao3.cs)
 
 **Questão 4**
 **Resposta:** 
 A função deverá utilizar *Reflection* para criar em *runtime* o tipo do objeto genérico especificado.
 
-[Código]()
+[Exemplo da questão 4](https://github.com/angelicaflausino/desafio-via-flow/blob/main/src/DesafioApp/DesafioApp/Questao4.cs)
 
 **Questão 5**
 **Resposta:** 
@@ -106,5 +107,4 @@ Vantagens de utilização:
 - Oferece suporte a operações CRUD (*Create, Read, Update and Delete*) em diveros verbos HTTP.
 - É leve e a interação do cliente com o servidor é rápida
 - Permite criar e expor métodos e classes personalizadas
-- 
 
