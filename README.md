@@ -79,16 +79,16 @@ O método .each() da biblioteca jquery é utilizada para iterar sobre cada item 
 **Questão 8**
 **Resposta:** 
 
-MVC é um padrão de arquitetura de software, onde é dividido a responsabilidades em três camadas:
+MVC é um padrão de arquitetura de software, onde é dividido as responsabilidades em três camadas:
  View: Camada de interação com o usuário.
  Model: Camada de representação das regras e modelos de negócio do sistema.
  Controller: Camada que controla a comunicação entre View e Model.
- Um exemplo prático é um formulário de registro, a camada View (exibição) exibe um formulário em html, o usuário preenche as informações conforme o modelo exigido, por exemplo Usuário e Senha, esses campos são definidos pela camada Model (modelo), então o usuário preenche o formulário e clica em Cadastrar, nesse momento a View envia as informações preenchidas para o Controller que irá repassar a informação para a camada Model registrar a informação. Ao salvar as informações a camada de modelo devolver uma resposta para o Controller que repassa a informação para a camada de exibição.
+ Um exemplo prático é um formulário de registro, a camada View (exibição) exibe um formulário em html, o usuário preenche as informações conforme o modelo exigido, por exemplo Usuário e Senha, esses campos são definidos pela camada Model (modelo), então o usuário preenche o formulário e clica em Cadastrar, nesse momento a View envia as informações preenchidas para o Controller que irá repassar a informação para a camada Model registrar a informação. Ao salvar as informações a camada de modelo devolve uma resposta para o Controller que repassa a informação para a camada de exibição.
 
 **Questão 9**
 **Resposta:** 
 
-PartialView é uma exibição parcial de um fragmento html, é possível ter uma parte do código que extende um formulário, bem como um elemento que posso reutilizar em outras partes do código. É ideal para reduzir marcações html muito grandes, reaproveitar marcações, evitando assim a duplicação de código.
+PartialView é uma exibição parcial de um fragmento html, é possível ter uma parte do código que extende um formulário, bem como um elemento que poderá ser reutilizado em outras partes do código. É ideal para reduzir marcações html muito grandes, reaproveitar marcações, evitando assim a duplicação de código.
 
 **Questão 10**
 **Resposta:** 
