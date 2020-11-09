@@ -38,10 +38,10 @@ A função deverá utilizar *Reflection* para criar em *runtime* o tipo do objet
     f.DeptID
     d.Id,
     d.Nome
-    from Funcionarios f
-    inner join Departamento d
-    on (f.DeptID = d.Id)
-    WHERE Salario IN (SELECT MAX(Salario) FROM Funcionarios group by DeptID)
+    FROM Funcionarios f
+    INNER JOIN Departamento d
+    ON (f.DeptID = d.Id)
+    WHERE Salario IN (SELECT MAX(Salario) FROM Funcionarios GROUP BY DeptID)
 
 **Questão 6**
 **Resposta:** 
